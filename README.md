@@ -13,6 +13,7 @@ Inspired by [litegraph.js](https://github.com/jagenjo/litegraph.js).
 - Custom node input/output types.
 - Touch support.
 - Serialization/Deserialization.
+- Subgraph support.
 - Fully typed.
 
 ## Installation
@@ -161,5 +162,5 @@ graph.fromJSON(json) // Deserialize
 
 ### TODO
 - [x] Vertical slots
-- [ ] Subgraphs
+- [x] Subgraphs
 - [ ] Docs
