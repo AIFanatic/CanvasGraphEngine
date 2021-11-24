@@ -1,0 +1,20 @@
+{
+  "name": "canvasgraphengine",
+  "version": "1.0.0",
+  "main": "dist/canvasgraphengine.js",
+  "types": "dist/esm/canvasgraphengine-esm.d.ts",
+  "module": "dist/esm/canvasgraphengine-esm.js",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.13.4",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "dev": "esbuild ./src/index.ts --bundle --outfile=./dist/esm/canvasgraphengine-esm.js --target=es6 --format=esm --watch",
+    "build:all": "npm run build",
+    "build": "npm run build:iife-bundle && npm run build:esm-bundle && npm run build:esm",
+    "build:iife-bundle": "esbuild src/index.ts --bundle --outfile=dist/canvasgraphengine.js --target=es6 --format=iife --global-name=CanvasGraphEngine",
+    "build:esm-bundle": "esbuild src/index.ts --bundle --outfile=dist/esm/canvasgraphengine-esm.js --target=es6 --format=esm",
+    "build:esm": "tsc -m es6 && cp ./dist/esm/index.d.ts ./dist/esm/canvasgraphengine-esm.d.ts"
+  }
+}
