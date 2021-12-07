@@ -1,6 +1,7 @@
 {
   "name": "canvasgraphengine",
   "version": "1.0.0",
+  "homepage": "https://github.com/AIFanatic/CanvasGraphEngine",
   "main": "dist/canvasgraphengine.js",
   "types": "dist/esm/canvasgraphengine-esm.d.ts",
   "module": "dist/esm/canvasgraphengine-esm.js",

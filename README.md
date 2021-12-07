@@ -4,7 +4,7 @@ A library to create graphs similar to Unreal Blueprints.
 
 Inspired by [litegraph.js](https://github.com/jagenjo/litegraph.js).
 
-![](./screenshot.png)
+![](https://github.com/AIFanatic/CanvasGraphEngine/raw/master/screenshot.png?raw=true)
 *Load data, train, predict and layer feature extraction of a ML MNIST classifier using CanvasGraphEngine.*
 
 ## Features
@@ -13,7 +13,7 @@ Inspired by [litegraph.js](https://github.com/jagenjo/litegraph.js).
 - Custom node input/output types.
 - Touch support.
 - Serialization/Deserialization.
-- Subgraph support.
+- Subgraphs support.
 - Fully typed.
 
 ## Installation
@@ -161,6 +161,4 @@ graph.fromJSON(json) // Deserialize
 ```
 
 ### TODO
-- [x] Vertical slots
-- [x] Subgraphs
 - [ ] Docs
