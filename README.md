@@ -19,7 +19,7 @@ Inspired by [litegraph.js](https://github.com/jagenjo/litegraph.js).
 ## Installation
 ### Node
 ```shell
-yarn add https://github.com/AIFanatic/canvasgraphengine.git
+yarn add canvasgraphengine
 ```
 
 ### Browser
@@ -97,7 +97,7 @@ canvas.height = document.body.clientHeight;
 const graph = new Graph(canvas);
 
 graph.registerNode("test", GraphNode);
-const node = graph.createNode("test");
+const node = graph.createNode("test", "Sample node");
 ```
 
 ### Custom node
